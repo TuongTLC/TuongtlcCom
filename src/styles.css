@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+body,
+html {
+    height: 100%;
+    min-height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-background-color: #161b22;
+    --text-color: #ffffff;
+    --title-color: #1e72fae0;
+    --secondary-color: #e5e7eb;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

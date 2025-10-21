@@ -16,7 +16,6 @@
     position: relative;
     padding: 1.5rem 2rem;
     border-radius: 70px;
-    background: #0f172a;
     color: var(--text-color);
     z-index: 0;
     overflow: visible;
@@ -28,8 +27,8 @@
     inset: -1rem;
     border-radius: inherit;
     background: linear-gradient(90deg, #00d4ff, #7c4dff, #ff5c7c);
-    filter: blur(24px);
-    opacity: 0.7;
+    filter: blur(40px);
+    opacity: 0.9;
     z-index: -1;
     pointer-events: none;
 }
@@ -49,6 +48,7 @@
 }
 
 .background a {
+    display: inline-block;
     color: var(--text-color);
     padding: 0.5rem;
     background-color: var(--text-background-color);
@@ -63,16 +63,12 @@
     background-color: #2D333B;
     transition: background-color 0.3s ease;
     border: 1px solid white;
-    margin-top: 5vh;
 }
 
-.short-shill {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-}
+
+
+
+
 
 .glow-btn {
     margin-top: 5vh;
@@ -131,8 +127,10 @@
     margin: 0;
     height: 100vh;
     width: 100%;
-    background-image: url("/assets/bg.jpg");
+    background-image: url("/assets/background.jpg");
     background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .links {
@@ -206,7 +204,7 @@
 .back-end,
 .dev-ops,
 .other-skills {
-    width: 20vw;
+    width: 20;
     background-color: aquamarine;
     padding: 1rem;
     margin: 1rem;
@@ -282,4 +280,22 @@
 
 .contact-info p {
     margin: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .front-end,
+    .back-end,
+    .dev-ops,
+    .other-skills {
+        width: 90%;
+        background-color: aquamarine;
+        padding: 1rem;
+        margin: 1rem;
+    }
 }

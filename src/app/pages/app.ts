@@ -27,4 +27,11 @@ export class App {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   }
+
+  scrollToTop(): void {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
 }

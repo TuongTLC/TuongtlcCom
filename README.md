@@ -1,59 +1,125 @@
-# TuongtlcCom
+# Trinh Le Cat Tuong - Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+A modern, full-stack portfolio website built with **Angular 16** and **.NET 6**, showcasing professional experience, technical expertise, and key projects.
 
-## Development server
+## Overview
 
-To start a local development server, run:
+This portfolio demonstrates my capabilities as a **.NET back-end developer** and full-stack engineer with expertise in:
+- **Back-End**: .NET Core 6+, Entity Framework, RESTful APIs, JWT, Redis
+- **Front-End**: Angular 16, HTML/CSS, TypeScript
+- **DevOps**: CI/CD pipelines (GitHub Actions, Jenkins, Azure), Server management
+- **Database**: MSSQL, database optimization, complex schema design
 
-```bash
-ng serve
+**Live Site**: [technews.tuongtlc.com](https://technews.tuongtlc.com)
+
+## Tech Stack
+
+### Frontend
+- Angular 16
+- TypeScript
+- HTML5/CSS3
+- Responsive Design
+
+### Backend
+- .NET 6 / .NET Core 8
+- Entity Framework Core
+- SQL Server (MSSQL)
+- RESTful API Architecture
+
+### DevOps & Infrastructure
+- GitHub Actions & Azure Pipelines
+- Jenkins CI/CD
+- Ubuntu Server 22.04
+- Nginx (Reverse Proxy, SSL Management)
+- Docker (containerization)
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── pages/
+│   │   ├── app.html       # Main portfolio layout
+│   │   ├── app.css        # Responsive styling
+│   │   └── app.ts         # Component logic
+│   ├── app.routes.ts      # Routing configuration
+│   ├── app.config.ts      # Application configuration
+│   └── assets/            # Images and static files
+├── main.ts                # Application entry point
+└── styles.css             # Global styles
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Key Features
 
-## Code scaffolding
+✨ **Responsive Design** - Optimized for desktop, tablet, and mobile devices
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🎨 **Modern UI** - Glassmorphism effects, gradient accents, smooth animations
 
-```bash
-ng generate component component-name
-```
+⚡ **Performance** - Optimized CSS, lazy loading, efficient asset management
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+📱 **Mobile-First** - Graceful degradation for older browsers, Safari iOS compatibility
 
-```bash
-ng generate --help
-```
+🔍 **SEO Ready** - Semantic HTML, proper metadata, fast load times
 
-## Building
+## Notable Projects
 
-To build the project run:
+### 🎫 UltraTix - Capstone Project
+**Sep 2023 - Dec 2023**
+- High-concurrency ticket-selling platform for live events
+- Technologies: .NET 6, Angular 16, MSSQL
+- Features: Real-time seat availability, secure checkout, concurrent transaction handling
 
-```bash
-ng build
-```
+### 🌿 Green Garden - Freelance Project
+**Jan 2024 - May 2024**
+- Plant-selling marketplace with dynamic inventory management
+- Technologies: .NET 6, React JS, MSSQL
+- Features: Secure payment processing, category filtering, cloud deployment
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 📝 Personal Knowledge Blog
+**Sep 2024 - Oct 2024**
+- Full-stack blogging platform for technical content
+- Technologies: .NET 6, Angular 16, MSSQL
+- Features: Self-hosted on Ubuntu Server, CI/CD via Jenkins, custom DevOps pipeline
 
-## Running unit tests
+## Experience
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+**Freelancer** | Front-end, Back-end, & System Admin (Jun 2024 - Present)
+- Developed full-stack solutions using .NET 6, Angular 16, and MSSQL
+- Managed Ubuntu Server administration and Linux environment configuration
+- Automated CI/CD pipelines using Jenkins and GitHub Webhooks
 
-```bash
-ng test
-```
+**FPT Software** | Java Developer Intern (Sep 2023 - Mar 2024)
+- Resolved back-end bugs for AMS Ascott Hotel booking website
+- Managed database operations and performed system monitoring with NewRelic
+- Collaborated with senior developers on production bug fixes
 
-## Running end-to-end tests
+## Education
 
-For end-to-end (e2e) testing, run:
+**FPT University** - Software Engineering
+- GPA: 7.2/10
+- Relevant Coursework: Web Development, Database Design, Software Architecture
 
-```bash
-ng e2e
-```
+## Certifications
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- AWS with Java
+- Project Management
+- Ethics in IT (Coursera)
 
-## Additional Resources
+## Contact
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📍 **Location**: Tan Binh District, Ho Chi Minh City, Vietnam
+
+📞 **Phone**: 0383938384
+
+📧 **Email**: trinhtuong98@gmail.com
+
+🐙 **GitHub**: [github.com/tuongtlc](https://github.com/tuongtlc)
+
+## Performance Optimizations
+
+- **CSS**: Optimized with CSS variables, consolidated gradients, reduced duplication
+- **Images**: Properly sized assets, lazy loading where applicable
+- **Responsive**: Mobile-first approach with media query breakpoints (768px, 480px)
+- **Accessibility**: Semantic HTML, proper contrast ratios, ARIA labels
+
+**Super note: This site can be written using pure html + css, but i decided to go with Angular for no reason, DON'T be like me**

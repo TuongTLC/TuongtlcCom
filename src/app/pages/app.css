@@ -520,6 +520,7 @@
 }
 
 .contact-info p {
+    max-width: 90%;
     color: #fff;
     font-size: 2.25em;
     margin: 1rem 0;
@@ -527,8 +528,8 @@
     background: var(--card-bg-low-opacity);
     border-radius: 15px;
     display: inline-block;
-    min-width: 300px;
     transition: all 0.3s ease;
+    overflow-wrap: break-word;
 }
 
 .contact-info p:hover {

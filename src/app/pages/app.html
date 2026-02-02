@@ -10,15 +10,16 @@
             <a> SQL Server</a>
             <a> RESTful API</a>
             <a>Angular</a>
+            <a>Jenkins</a>
         </div>
 
         <div>
+            <button class="glow-btn" (click)="scrollToElement('expertise')">Skills</button>
             <button class="glow-btn" (click)="scrollToElement('projects')">Projects</button>
             <button class="glow-btn" (click)="scrollToElement('contact')">Contact information</button>
         </div>
         <div class="links">
             <img src="/assets/github.png" alt="Github logo" (click)="goToWebsite('https://github.com/tuongtlc')" />
-
         </div>
 
         <div class="scroll-down" (click)="scrollDown()">
@@ -27,7 +28,7 @@
         </div>
 
     </div>
-    <div class="expertise">
+    <div class="expertise" id="expertise">
         <p>Technical Expertise</p>
     </div>
     <div class="skills">

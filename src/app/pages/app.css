@@ -634,8 +634,8 @@
     .main-info {
         height: auto;
         min-height: 100vh;
-        padding-top: 15vh;
-        padding-bottom: 5vh;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .background h1 {
@@ -666,7 +666,7 @@
 
     .links {
         width: 100%;
-        margin: 2rem 0;
+        margin: 0 0;
         display: flex;
         justify-content: center;
         float: none;
@@ -737,8 +737,26 @@
         font-size: 1.5rem;
     }
 
+    .front-end,
+    .back-end,
+    .dev-ops,
+    .other-skills {
+        flex: none;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0;
+    }
+
+    .name {
+        padding: 0;
+    }
+
+    .links img {
+        width: 10vh;
+        height: 10vh;
+    }
+
     .scroll-down {
         display: none;
-        /* Often buggy or overlaps on small screens, better to hide */
     }
 }

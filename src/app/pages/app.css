@@ -614,3 +614,131 @@
         font-size: 2em;
     }
 }
+
+@media (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    .background {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main-info {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+    }
+
+    .background h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        padding: 0 1rem;
+    }
+
+    .background h2 {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        padding: 0 1rem;
+    }
+
+    .background a {
+        font-size: 0.9rem;
+        margin: 0.3rem;
+        padding: 0.5rem 0.8rem;
+        display: inline-block;
+    }
+
+    .glow-btn {
+        width: 85%;
+        margin: 1rem auto;
+        font-size: 1rem;
+        display: block;
+    }
+
+    .links {
+        width: 100%;
+        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
+        float: none;
+    }
+
+    /* Sections Container Adjustments */
+    .skills,
+    .projects,
+    .experience,
+    .education,
+    .certs,
+    .contact-info {
+        width: 95%;
+        padding: 2rem 1rem;
+        margin-top: 3vh;
+    }
+
+    /* Typography Scaling */
+    .skills h3,
+    .projects h3,
+    .experience h2,
+    .education h3,
+    .certs h3,
+    .contact-info h3 {
+        font-size: 1.8rem;
+    }
+
+    .skills p,
+    .project-item p,
+    .project-item ul,
+    .project-item .duration,
+    .company li,
+    .company .duration,
+    .education p,
+    .certs p {
+        font-size: 1rem !important;
+        /* Override large base sizes */
+        line-height: 1.5;
+    }
+
+    .project-item h4,
+    .company h4,
+    .education h4 {
+        font-size: 1.4rem;
+        word-wrap: break-word;
+    }
+
+    .project-item,
+    .company {
+        padding: 1.5rem 1rem;
+    }
+
+    /* Contact Info Specifics */
+    .contact-info p {
+        font-size: 0.95rem !important;
+        min-width: unset;
+        width: 100%;
+        padding: 1rem;
+        overflow-wrap: break-word;
+    }
+
+    /* Helper buttons */
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
+    }
+
+    .scroll-down {
+        display: none;
+        /* Often buggy or overlaps on small screens, better to hide */
+    }
+}

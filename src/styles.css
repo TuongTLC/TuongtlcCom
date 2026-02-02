@@ -11,6 +11,20 @@ html {
     --text-color: #ffffff;
     --title-color: #1e72fae0;
     --secondary-color: #e5e7eb;
+
+    /* New Palette */
+    --primary-pink: #ff5c7c;
+    --primary-purple: #7c4dff;
+    --primary-blue: #00d4ff;
+
+    /* Dark Theme Accents */
+    --dark-border: #2D333B;
+    --card-bg-low-opacity: rgba(255, 255, 255, 0.05);
+    --card-bg-med-opacity: rgba(255, 255, 255, 0.08);
+    --border-light-opacity: rgba(255, 255, 255, 0.1);
+    --border-med-opacity: rgba(255, 255, 255, 0.2);
+    --text-high-opacity: rgba(255, 255, 255, 0.8);
+    --text-very-high-opacity: rgba(255, 255, 255, 0.9);
 }
 
 body::-webkit-scrollbar {

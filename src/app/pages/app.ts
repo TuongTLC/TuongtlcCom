@@ -14,13 +14,6 @@ export class App {
     window.open(url, '_blank');
   }
 
-  scrollDown() {
-    window.scrollBy({
-      top: window.innerHeight,
-      behavior: 'smooth',
-    });
-  }
-
   scrollToElement(elementId: string): void {
     const element = document.getElementById(elementId);
     if (element) {

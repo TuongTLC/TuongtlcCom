@@ -69,30 +69,28 @@
 
 
 .glow-btn {
-    margin-top: 5vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    padding: 1rem 2rem;
-    font-size: 1.2em;
-    color: var(--text-color);
-    background-color: var(--text-background-color);
-    border: 1px solid var(--dark-border);
-    border-radius: 40px;
-    cursor: pointer;
+  margin-top: 5vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
 
-    position: relative;
-    padding: 12px 28px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: white;
-    background: rgba(20, 20, 30, 0.8);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    z-index: 1;
-    backdrop-filter: blur(10px);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
+  position: relative;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  color: white;
+  background: rgba(20, 20, 30, 0.8);
+
+  border: none;
+  border-radius: 50px;
+
+  cursor: pointer;
+  z-index: 1;
+
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  overflow: hidden;
 }
 
 .glow-btn::before {
@@ -143,6 +141,7 @@
 }
 
 .links img {
+  margin: 3px;
     cursor: pointer;
     width: 5vh;
     height: 5vh;
